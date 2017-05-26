@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-SSCWebView" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>SSCWebView</name><js-module name="SSCWebView" src="www/SSCWebView.js"><clobbers target="cordova.plugins.SSCWebView" /></js-module><platform name="ios"><config-file parent="/*" target="config.xml"><feature name="SSCWebView"><param name="ios-package" value="SSCWebView" /></feature></config-file><source-file src="src/ios/SSCWebView.m" />
+    <resource-file src="src/ios/Resources/back_sscwebview@2x.png"/>
+    <resource-file src="src/ios/Resources/close_sscwebview@2x.png"/>
+    <source-file src="src/ios/SSCWebView.m"/>
+    <source-file src="src/ios/SSCHTMLController.h"/>
+    <source-file src="src/ios/SSCHTMLController.m"/>
+    <source-file src="src/ios/SSCWebViewController.h"/>
+    <source-file src="src/ios/SSCWebViewController.m"/>
+</platform></plugin>
